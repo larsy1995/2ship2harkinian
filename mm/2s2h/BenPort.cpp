@@ -33,6 +33,8 @@
 
 #ifdef __APPLE__
 #include <SDL_scancode.h>
+#include <unistd.h>
+#include <pwd.h>
 #else
 #include <SDL2/SDL_scancode.h>
 #endif
